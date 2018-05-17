@@ -10,13 +10,12 @@ feign:
 
 mybatis:
   config-location: classpath:mybatis-config.xml
-  mapper-locations: classpath:mapper/*.xml
 
 spring:
   application:
     name: goods-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/cloth
+    url: jdbc:mysql://127.0.0.1:3306/clothing
     username: root
     password: 14159265jkl
     # 使用druid数据源
