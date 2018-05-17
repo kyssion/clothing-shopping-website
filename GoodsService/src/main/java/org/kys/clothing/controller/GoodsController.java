@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 public class GoodsController {
+
     @Autowired
     public GoodsService goodsService;
 
@@ -29,7 +30,4 @@ public class GoodsController {
         List<GoodsBean> list = goodsService.getAllGoodsInfo(page-1,pageSize);
         return PageUtil.getReturnListPackaging(list);
     }
-
-
-
 }
