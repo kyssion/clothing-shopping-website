@@ -1,6 +1,6 @@
 package org.kys.clothing.controller;
 
-import org.kys.clothing.model.GoodsBean;
+import org.kys.clothing.GoodsBean;
 import org.kys.clothing.service.GoodsService;
 import org.kys.util.PageUtil;
 import org.kys.util.datePackaging.ReturnListDataPackaging;
@@ -30,4 +30,5 @@ public class GoodsController {
         List<GoodsBean> list = goodsService.getAllGoodsInfo(page-1,pageSize);
         return PageUtil.getReturnListPackaging(list);
     }
+
 }

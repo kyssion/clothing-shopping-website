@@ -9,6 +9,7 @@
         <module name="EngineeringUtilTool" />
         <module name="EurekaService" />
         <module name="GoodsService" />
+        <module name="ModelDataSource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="EngineeringUtilTool" target="1.8" />
       <module name="EurekaService" target="1.8" />
       <module name="GoodsService" target="1.8" />
+      <module name="ModelDataSource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -10,6 +10,7 @@
         <module>EurekaService</module>
         <module>GoodsService</module>
         <module>EngineeringUtilTool</module>
+        <module>ModelDataSource</module>
     </modules>
     <packaging>pom</packaging>
 

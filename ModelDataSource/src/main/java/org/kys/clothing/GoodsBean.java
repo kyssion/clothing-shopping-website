@@ -1,4 +1,4 @@
-package org.kys.clothing.model;
+package org.kys.clothing;
 
 
 public class GoodsBean {
@@ -10,7 +10,24 @@ public class GoodsBean {
   private String categroyName;
   private long money;
   private String img;
+  private boolean isDiscounts;
+  private int discountsMoney;
 
+  public boolean isDiscounts() {
+    return isDiscounts;
+  }
+
+  public void setDiscounts(boolean discounts) {
+    isDiscounts = discounts;
+  }
+
+  public int getDiscountsMoney() {
+    return discountsMoney;
+  }
+
+  public void setDiscountsMoney(int discountsMoney) {
+    this.discountsMoney = discountsMoney;
+  }
 
   public long getId() {
     return id;
