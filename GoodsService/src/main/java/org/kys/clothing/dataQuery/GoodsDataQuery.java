@@ -12,4 +12,7 @@ import java.util.List;
 public interface GoodsDataQuery {
     @Select("select * from goods limit #{page2},#{pageSize2};")
     public List<GoodsBean> SelectAllGoods(@Param("page2") int page, @Param("pageSize2") int pageSize);
+
+    @Select("select * from goods where sku= #{sku}")
+    GoodsBean getGoodsBySku(@Param("sku") String sku);
 }

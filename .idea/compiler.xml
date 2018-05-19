@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DiscountsService" />
         <module name="EngineeringUtilTool" />
         <module name="EurekaService" />
         <module name="GoodsService" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="clothing-website" target="1.8" />
+      <module name="DiscountsService" target="1.8" />
       <module name="EngineeringUtilTool" target="1.8" />
       <module name="EurekaService" target="1.8" />
       <module name="GoodsService" target="1.8" />

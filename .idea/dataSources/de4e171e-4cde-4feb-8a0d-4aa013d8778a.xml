@@ -1058,7 +1058,7 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="233" name="goods_sku">
+    <column id="254" parent="233" name="sku">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
@@ -1074,6 +1074,7 @@
     </column>
     <column id="256" parent="233" name="status">
       <Position>5</Position>
+      <Comment>表示优惠类型如果是-1 表示失效</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>

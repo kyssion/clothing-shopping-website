@@ -11,7 +11,7 @@ public class GoodsBean {
   private long money;
   private String img;
   private boolean isDiscounts;
-  private int discountsMoney;
+  private long discountsMoney;
 
   public boolean isDiscounts() {
     return isDiscounts;
@@ -21,11 +21,11 @@ public class GoodsBean {
     isDiscounts = discounts;
   }
 
-  public int getDiscountsMoney() {
+  public long getDiscountsMoney() {
     return discountsMoney;
   }
 
-  public void setDiscountsMoney(int discountsMoney) {
+  public void setDiscountsMoney(long discountsMoney) {
     this.discountsMoney = discountsMoney;
   }
 
