@@ -1,28 +1,23 @@
-package org.kys.clothing.Good;
+package org.kys.clothing.goodsCart;
 
 
-public class GoodsBean {
+public class GoodsCardsBean {
 
   private long id;
-  private String goodsName;
+  private String cardsId;
   private String sku;
+  private long skuNumber;
+  private long addTime;
+  private String userCode;
+  private String goodsName;
   private String categroyId;
   private String categroyName;
   private long money;
   private String img;
   private long color;
   private String size;
-  private String sizeId;
   private String style;
   private String information;
-
-  public long getId() {
-    return id;
-  }
-
-  public void setId(long id) {
-    this.id = id;
-  }
 
   public String getGoodsName() {
     return goodsName;
@@ -30,14 +25,6 @@ public class GoodsBean {
 
   public void setGoodsName(String goodsName) {
     this.goodsName = goodsName;
-  }
-
-  public String getSku() {
-    return sku;
-  }
-
-  public void setSku(String sku) {
-    this.sku = sku;
   }
 
   public String getCategroyId() {
@@ -88,14 +75,6 @@ public class GoodsBean {
     this.size = size;
   }
 
-  public String getSizeId() {
-    return sizeId;
-  }
-
-  public void setSizeId(String sizeId) {
-    this.sizeId = sizeId;
-  }
-
   public String getStyle() {
     return style;
   }
@@ -111,4 +90,58 @@ public class GoodsBean {
   public void setInformation(String information) {
     this.information = information;
   }
+
+  public long getId() {
+    return id;
+  }
+
+  public void setId(long id) {
+    this.id = id;
+  }
+
+
+  public String getCardsId() {
+    return cardsId;
+  }
+
+  public void setCardsId(String cardsId) {
+    this.cardsId = cardsId;
+  }
+
+
+  public String getSku() {
+    return sku;
+  }
+
+  public void setSku(String sku) {
+    this.sku = sku;
+  }
+
+
+  public long getSkuNumber() {
+    return skuNumber;
+  }
+
+  public void setSkuNumber(long skuNumber) {
+    this.skuNumber = skuNumber;
+  }
+
+
+  public long getAddTime() {
+    return addTime;
+  }
+
+  public void setAddTime(long addTime) {
+    this.addTime = addTime;
+  }
+
+
+  public String getUserCode() {
+    return userCode;
+  }
+
+  public void setUserCode(String userCode) {
+    this.userCode = userCode;
+  }
+
 }

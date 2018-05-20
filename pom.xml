@@ -13,6 +13,8 @@
         <module>ModelDataSource</module>
         <module>DiscountsService</module>
         <module>UserService</module>
+        <module>OrderService</module>
+        <module>GoodsCartService</module>
     </modules>
     <packaging>pom</packaging>
 

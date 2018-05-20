@@ -13,7 +13,7 @@ mybatis:
 
 spring:
   application:
-    name: goods-service
+    name: user-service
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/clothing?useUnicode=true&characterEncoding=utf-8
     username: root

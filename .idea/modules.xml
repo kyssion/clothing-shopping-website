@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/DiscountsService/DiscountsService.iml" filepath="$PROJECT_DIR$/DiscountsService/DiscountsService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EngineeringUtilTool/EngineeringUtilTool.iml" filepath="$PROJECT_DIR$/EngineeringUtilTool/EngineeringUtilTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoodsCartService/GoodsCartService.iml" filepath="$PROJECT_DIR$/GoodsCartService/GoodsCartService.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoodsService/GoodsService.iml" filepath="$PROJECT_DIR$/GoodsService/GoodsService.iml" />
       <module fileurl="file://$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" filepath="$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderService/OrderService.iml" filepath="$PROJECT_DIR$/OrderService/OrderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
       <module fileurl="file://$PROJECT_DIR$/clothing-website.iml" filepath="$PROJECT_DIR$/clothing-website.iml" />
     </modules>

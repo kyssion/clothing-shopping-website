@@ -15,7 +15,7 @@ spring:
   application:
     name: discounts-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/clothing
+    url: jdbc:mysql://127.0.0.1:3306/clothing?useUnicode=true&characterEncoding=utf-8
     username: root
     password: 14159265jkl
     # 使用druid数据源
