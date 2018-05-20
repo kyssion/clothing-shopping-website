@@ -5,6 +5,7 @@ import org.kys.clothing.goodsCart.GoodsCardsBean;
 import org.kys.clothing.service.GoodsCartService;
 import org.kys.clothing.user.UserBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.Nullable;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,7 +21,7 @@ public class GoodsCartController {
 
     @RequestMapping("get_all_user_goods")
     public List<GoodsCardsBean> getGoodsCartInfo(@RequestParam("userCode")String userCode,
-                                                 @RequestParam("userPassword")String userPassword){
+                                                 @RequestParam("userPassword")@Nullable String userPassword){
         return goodsCartService.getUserGoodsCart(userCode);
     }
 
