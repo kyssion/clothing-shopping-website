@@ -13,6 +13,10 @@ public interface UserDataQuery {
     @Select("select * from user where user_code = #{userCode}")
     public UserBean getUserInfo(@Param("userCode") String userCode);
 
-    @Insert("insert into user valus(#{id},#{user_code},#{user_password},#{user_tel},#{user_email},#{user_addr},#{status})")
+    @Insert("insert into user (user_code, user_password, user_tel, user_email, user_addr, status)" +
+            " values (#{userCode},#{userPassword},#{userTel},#{userEmail},#{userAddr},#{status})")
     int insertUserBean(UserBean userBean);
+
+    @Select("select count(*) from user where user_code = #{userCode}")
+    Integer isRegister(@Param("userCode") String userCode);
 }

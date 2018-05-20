@@ -1,6 +1,6 @@
 package org.kys.clothing.feginHystrix;
 
-import org.kys.clothing.GoodsBean;
+import org.kys.clothing.Good.GoodsBean;
 import org.kys.clothing.discounts.DiscountsBean;
 import org.kys.clothing.fegin.DiscountsFegin;
 import org.slf4j.Logger;

@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.kys.clothing.user.UserBean;
 import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;
@@ -26,6 +27,9 @@ import org.springframework.web.bind.annotation.RestController;
 @MapperScan("classpath:org.kys.clothing.dataQuery")
 @EnableCaching
 public class UserApplicatin {
+    public static void main(String[] args) {
+        SpringApplication.run(UserApplicatin.class);
+    }
     /**
      * 注册redisTemple
      * @param redisConnectionFactory

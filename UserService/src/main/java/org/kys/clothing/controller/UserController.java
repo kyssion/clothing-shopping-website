@@ -5,13 +5,12 @@ import org.kys.clothing.user.UserBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
-import org.springframework.web.bind.annotation.CookieValue;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.lang.Nullable;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 public class UserController {
@@ -21,6 +20,7 @@ public class UserController {
 
     @Autowired
     UserService userService;
+
     @RequestMapping("user_login")
     public boolean UserLogin(@RequestParam("user_code")String code,
                             @RequestParam("password")String passwordsa,HttpServletResponse response){
@@ -30,7 +30,7 @@ public class UserController {
                 Cookie cookie = new Cookie("login_information", "login_information_" + code);
                 response.addCookie(cookie);
                 ValueOperations<String,UserBean> cacheValue = userRedisTemplate.opsForValue();
-                cacheValue.set("login_information_" + code,userBean,DAY_TIME*7);
+                cacheValue.set("login_information_" + code,userBean,DAY_TIME*7,TimeUnit.MICROSECONDS);
             }
             return true;
         }
@@ -43,12 +43,17 @@ public class UserController {
     }
 
     @RequestMapping("register")
-    public boolean regiterUser(UserBean userBean){
+    public boolean regiterUser(@ModelAttribute UserBean userBean){
+        boolean isRegister = userService.isRegister(userBean.getUserCode());
+        if (isRegister){
+            return false;
+        }
+        userBean.setStatus(1);
         return userService.insertUserBean(userBean);
     }
 
     @RequestMapping("is_login")
-    public UserBean isLogin(@CookieValue("login_information") String httpCookie){
+    public UserBean isLogin(@CookieValue(value = "login_information") String httpCookie){
         ValueOperations<String,UserBean> valueOperations=userRedisTemplate.opsForValue();
         UserBean userBean=valueOperations.get(httpCookie);
         return userBean;

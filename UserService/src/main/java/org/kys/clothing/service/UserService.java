@@ -18,6 +18,10 @@ public class UserService {
 
     public boolean insertUserBean(UserBean userBean) {
         int returnStatus = userDataQuery.insertUserBean(userBean);
-        return returnStatus==0?true:false;
+        return returnStatus==0?false:true;
+    }
+
+    public boolean isRegister(String userCode) {
+        return userDataQuery.isRegister(userCode)==null?false:true;
     }
 }

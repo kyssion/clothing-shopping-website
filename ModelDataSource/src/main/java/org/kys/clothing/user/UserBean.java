@@ -11,7 +11,15 @@ public class UserBean implements Serializable {
   private String userTel;
   private String userEmail;
   private String userAddr;
+  private int status;
 
+  public int getStatus() {
+    return status;
+  }
+
+  public void setStatus(int status) {
+    this.status = status;
+  }
 
   public long getId() {
     return id;
