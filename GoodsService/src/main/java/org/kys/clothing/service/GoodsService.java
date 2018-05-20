@@ -1,6 +1,6 @@
 package org.kys.clothing.service;
 
-import org.kys.clothing.GoodsBean;
+import org.kys.clothing.Good.GoodsBean;
 import org.kys.clothing.dataQuery.GoodsDataQuery;
 import org.kys.clothing.discounts.DiscountsBean;
 import org.springframework.beans.factory.annotation.Autowired;

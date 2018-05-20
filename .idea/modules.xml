@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoodsService/GoodsService.iml" filepath="$PROJECT_DIR$/GoodsService/GoodsService.iml" />
       <module fileurl="file://$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" filepath="$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
       <module fileurl="file://$PROJECT_DIR$/clothing-website.iml" filepath="$PROJECT_DIR$/clothing-website.iml" />
     </modules>
   </component>

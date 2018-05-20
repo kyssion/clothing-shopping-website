@@ -1,6 +1,6 @@
 package org.kys.clothing.controller;
 
-import org.kys.clothing.GoodsBean;
+import org.kys.clothing.Good.GoodsBean;
 import org.kys.clothing.discounts.DiscountsBean;
 import org.kys.clothing.service.DiscountsService;
 import org.kys.util.PageUtil;

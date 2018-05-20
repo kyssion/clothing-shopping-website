@@ -11,6 +11,7 @@
         <module name="EurekaService" />
         <module name="GoodsService" />
         <module name="ModelDataSource" />
+        <module name="UserService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="EurekaService" target="1.8" />
       <module name="GoodsService" target="1.8" />
       <module name="ModelDataSource" target="1.8" />
+      <module name="UserService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

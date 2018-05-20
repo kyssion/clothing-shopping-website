@@ -1,4 +1,4 @@
-package org.kys.clothing;
+package org.kys.clothing.Good;
 
 
 public class GoodsBean {

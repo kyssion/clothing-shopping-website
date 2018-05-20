@@ -12,6 +12,7 @@
         <module>EngineeringUtilTool</module>
         <module>ModelDataSource</module>
         <module>DiscountsService</module>
+        <module>UserService</module>
     </modules>
     <packaging>pom</packaging>
 

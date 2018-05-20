@@ -1,6 +1,6 @@
 package org.kys.clothing.fegin;
 
-import org.kys.clothing.GoodsBean;
+import org.kys.clothing.Good.GoodsBean;
 import org.kys.clothing.discounts.DiscountsBean;
 import org.kys.clothing.feginHystrix.DiscountsHystrix;
 import org.springframework.cloud.openfeign.FeignClient;

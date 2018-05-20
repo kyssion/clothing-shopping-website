@@ -3,7 +3,7 @@ package org.kys.clothing.dataQuery;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.kys.clothing.GoodsBean;
+import org.kys.clothing.Good.GoodsBean;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
