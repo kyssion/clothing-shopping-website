@@ -22,8 +22,8 @@ public class GoodsService {
     public GoodsBean getGoodsInformation(DiscountsBean discountsBean, String sku) {
         GoodsBean goodsBean = goodsDataQuery.getGoodsBySku(sku);
         if (goodsBean!=null&&discountsBean!=null){
-            goodsBean.setDiscounts(true);
-            goodsBean.setDiscountsMoney(discountsBean.getDiscountsMoney());
+            goodsBean.setDiscount(true);
+            goodsBean.setDiscountMoney(discountsBean.getDiscountsMoney());
         }
         return goodsBean;
     }

@@ -1,6 +1,10 @@
 package org.kys.clothing.order;
 
 
+import org.kys.clothing.goodsCart.GoodsCardsBean;
+
+import java.util.List;
+
 public class OrderBean {
 
   private long id;
@@ -10,7 +14,15 @@ public class OrderBean {
   private long changeTime;
   private long status;
   private String userCode;
+  private List<GoodsCardsBean> goodsCardsBeans;
 
+  public List<GoodsCardsBean> getGoodsCardsBeans() {
+    return goodsCardsBeans;
+  }
+
+  public void setGoodsCardsBeans(List<GoodsCardsBean> goodsCardsBeans) {
+    this.goodsCardsBeans = goodsCardsBeans;
+  }
 
   public long getId() {
     return id;

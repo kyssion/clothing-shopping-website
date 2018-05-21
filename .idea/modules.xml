@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommentService/CommentService.iml" filepath="$PROJECT_DIR$/CommentService/CommentService.iml" />
       <module fileurl="file://$PROJECT_DIR$/DiscountsService/DiscountsService.iml" filepath="$PROJECT_DIR$/DiscountsService/DiscountsService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EngineeringUtilTool/EngineeringUtilTool.iml" filepath="$PROJECT_DIR$/EngineeringUtilTool/EngineeringUtilTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaService/EurekaService.iml" filepath="$PROJECT_DIR$/EurekaService/EurekaService.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoodsCartService/GoodsCartService.iml" filepath="$PROJECT_DIR$/GoodsCartService/GoodsCartService.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoodsService/GoodsService.iml" filepath="$PROJECT_DIR$/GoodsService/GoodsService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InventoryService/InventoryService.iml" filepath="$PROJECT_DIR$/InventoryService/InventoryService.iml" />
       <module fileurl="file://$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" filepath="$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrderService/OrderService.iml" filepath="$PROJECT_DIR$/OrderService/OrderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />

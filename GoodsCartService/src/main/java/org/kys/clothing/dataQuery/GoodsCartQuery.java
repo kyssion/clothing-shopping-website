@@ -18,7 +18,7 @@ public interface GoodsCartQuery {
     Integer removeGoodsItem(@Param("userCode") String userCode);
 
     @Insert("insert into goods_cards (cards_id, sku, sku_number, add_time, user_code)" +
-            "values(#{cardsId,sku,skuNumber,addTime,userCode})")
+            "values(#{cardsId},#{sku},#{skuNumber},#{addTime},#{userCode})")
     Integer addGoodsItem(GoodsCardsBean bean);
 
 

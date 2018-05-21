@@ -15,6 +15,25 @@ public class GoodsBean {
   private String sizeId;
   private String style;
   private String information;
+  private boolean isDiscount;
+  private long discountMoney;
+
+  public long getDiscountMoney() {
+    return discountMoney;
+  }
+
+  public void setDiscountMoney(long discountMoney) {
+    this.discountMoney = discountMoney;
+  }
+
+  public boolean isDiscount() {
+
+    return isDiscount;
+  }
+
+  public void setDiscount(boolean discount) {
+    isDiscount = discount;
+  }
 
   public long getId() {
     return id;

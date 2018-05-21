@@ -2,11 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommentService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DiscountsService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EngineeringUtilTool" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GoodsCartService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GoodsService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InventoryService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ModelDataSource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OrderService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/UserService" charset="UTF-8" />

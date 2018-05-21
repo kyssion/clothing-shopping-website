@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CommentService" />
         <module name="DiscountsService" />
         <module name="EngineeringUtilTool" />
         <module name="EurekaService" />
         <module name="GoodsCartService" />
         <module name="GoodsService" />
+        <module name="InventoryService" />
         <module name="ModelDataSource" />
         <module name="OrderService" />
         <module name="UserService" />
@@ -18,11 +20,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="clothing-website" target="1.8" />
+      <module name="CommentService" target="1.8" />
       <module name="DiscountsService" target="1.8" />
       <module name="EngineeringUtilTool" target="1.8" />
       <module name="EurekaService" target="1.8" />
       <module name="GoodsCartService" target="1.8" />
       <module name="GoodsService" target="1.8" />
+      <module name="InventoryService" target="1.8" />
       <module name="ModelDataSource" target="1.8" />
       <module name="OrderService" target="1.8" />
       <module name="UserService" target="1.8" />
