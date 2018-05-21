@@ -21,5 +21,6 @@ public interface GoodsCartQuery {
             "values(#{cardsId},#{sku},#{skuNumber},#{addTime},#{userCode})")
     Integer addGoodsItem(GoodsCardsBean bean);
 
-
+    @Delete("delete from goods_cards where userCode=#{userCode} and sku=#{sku}")
+    Integer removeGoodsItem(@Param("userCode") String userCode,@Param("sku") String sku);
 }

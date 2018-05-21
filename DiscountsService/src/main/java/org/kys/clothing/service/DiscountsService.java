@@ -22,4 +22,8 @@ public class DiscountsService {
     public DiscountsBean getDiscountsInformationBySku(String sku) {
         return discountsClothingQuery.getDiscountsInformationByGoodsId(sku);
     }
+
+    public GoodsBean getGoodsInfoWithDiscounts(String sku) {
+        return discountsClothingQuery.getGoodsInfoWithDiscounts(sku);
+    }
 }

@@ -17,4 +17,7 @@ public interface DiscountsClothingQuery {
 
     @Select("select * from goods_discounts where sku=#{sku} and status !=-1")
     DiscountsBean getDiscountsInformationByGoodsId(@Param("sku") String sku);
+
+    @Select("select * from goods g,goods_discounts d where g.sku=d.sku and status !=0 and sku=#{sku} limit")
+    GoodsBean getGoodsInfoWithDiscounts(@Param("sku") String sku);
 }

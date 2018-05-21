@@ -18,6 +18,12 @@ public class DiscountsController {
     @Autowired
     DiscountsService discountsService;
 
+    /**
+     * 获得所有的有虎商品信息
+     * @param page
+     * @param pageSize
+     * @return
+     */
     @RequestMapping("get_discounts_goods")
     public List<GoodsBean> getAllGoodsInfo(@RequestParam(value = "page",defaultValue = "1")int page,
                                                    @RequestParam(value = "page_size",defaultValue = "-1")int pageSize){
@@ -26,9 +32,24 @@ public class DiscountsController {
         return list;
     }
 
+    /**
+     * 获得指定sku商品的优惠信息
+     * @param sku
+     * @return
+     */
     @RequestMapping("get_discounts_information")
     public DiscountsBean getDiscountsInformation(@RequestParam("sku")String sku){
         return discountsService.getDiscountsInformationBySku(sku);
+    }
+
+    /**
+     * 获得指定的商品详情
+     * @param sku
+     * @return
+     */
+    @RequestMapping("get_goods_with_discounts")
+    public GoodsBean getGoodsinfoWithDisCounts(@RequestParam("sku")String sku){
+        return discountsService.getGoodsInfoWithDiscounts(sku);
     }
 
 }
