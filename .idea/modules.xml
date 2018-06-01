@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdminService/AdminService.iml" filepath="$PROJECT_DIR$/AdminService/AdminService.iml" />
       <module fileurl="file://$PROJECT_DIR$/CommentService/CommentService.iml" filepath="$PROJECT_DIR$/CommentService/CommentService.iml" />
       <module fileurl="file://$PROJECT_DIR$/DiscountsService/DiscountsService.iml" filepath="$PROJECT_DIR$/DiscountsService/DiscountsService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EngineeringUtilTool/EngineeringUtilTool.iml" filepath="$PROJECT_DIR$/EngineeringUtilTool/EngineeringUtilTool.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" filepath="$PROJECT_DIR$/ModelDataSource/ModelDataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrderService/OrderService.iml" filepath="$PROJECT_DIR$/OrderService/OrderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulService/ZuulService.iml" filepath="$PROJECT_DIR$/ZuulService/ZuulService.iml" />
       <module fileurl="file://$PROJECT_DIR$/clothing-website.iml" filepath="$PROJECT_DIR$/clothing-website.iml" />
     </modules>
   </component>

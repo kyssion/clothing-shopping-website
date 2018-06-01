@@ -11,13 +11,14 @@ import java.util.List;
 public class CommentController {
     @Autowired
     CommentService commentService;
-    @RequestMapping(value = "add_comment",method = RequestMethod.POST)
-    public boolean addComment(@RequestBody CommentBean commentBean){
+
+    @RequestMapping(value = "add_comment", method = RequestMethod.POST)
+    public boolean addComment(@RequestBody CommentBean commentBean) {
         return commentService.addComment(commentBean);
     }
 
     @RequestMapping("find_comment")
-    public List<CommentBean> getCommentBysku(@RequestParam("sku")String sku){
+    public List<CommentBean> getCommentBysku(@RequestParam("sku") String sku) {
         return commentService.findCommentBysku(sku);
     }
 }

@@ -2,7 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989859fe-97b9-40b3-b343-e9b5e765e66b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_0_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_0_BUILD_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/AdminService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/GoodsFegin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/UserFegin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/feginHystrix/DiscountsHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminService/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZuulService/ZuulService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZuulService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZuulService/src/main/java/cloth/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZuulService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/de4e171e-4cde-4feb-8a0d-4aa013d8778a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/de4e171e-4cde-4feb-8a0d-4aa013d8778a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentService/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/CommentService/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscountsService/target/classes/org/kys/clothing/controller/DiscountsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/DiscountsService/target/classes/org/kys/clothing/controller/DiscountsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscountsService/target/classes/org/kys/clothing/dataQuery/DiscountsClothingQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/DiscountsService/target/classes/org/kys/clothing/dataQuery/DiscountsClothingQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiscountsService/target/classes/org/kys/clothing/service/DiscountsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/DiscountsService/target/classes/org/kys/clothing/service/DiscountsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/PageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/PageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/datePackaging/ReturnListDataPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/datePackaging/ReturnListDataPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringUtilTool/target/classes/org/kys/util/PageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringUtilTool/target/classes/org/kys/util/PageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringUtilTool/target/classes/org/kys/util/datePackaging/ReturnListDataPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringUtilTool/target/classes/org/kys/util/datePackaging/ReturnListDataPackaging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/GoodsCartService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/GoodsCartService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/dataQuery/GoodsCartQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/dataQuery/GoodsCartQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/feginHystrix/UserHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/feginHystrix/UserHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/service/GoodsCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/service/GoodsCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/controller/GoodsCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/controller/GoodsCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/controller/Param.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/dataQuery/GoodsCartQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/dataQuery/GoodsCartQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/fegin/UserFegin.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/fegin/UserFegin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/feginHystrix/UserHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/feginHystrix/UserHystrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/service/GoodsCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsCartService/target/classes/org/kys/clothing/service/GoodsCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/GoodsService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/GoodsService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/dataQuery/GoodsDataQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/dataQuery/GoodsDataQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/target/classes/org/kys/clothing/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/target/classes/org/kys/clothing/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/target/classes/org/kys/clothing/dataQuery/GoodsDataQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/target/classes/org/kys/clothing/dataQuery/GoodsDataQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoodsService/target/classes/org/kys/clothing/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/GoodsService/target/classes/org/kys/clothing/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/dataQuary/InventoryQuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/dataQuary/InventoryQuary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryService/target/classes/org/kys/clothing/controller/InventoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryService/target/classes/org/kys/clothing/controller/InventoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryService/target/classes/org/kys/clothing/dataQuary/InventoryQuary.class" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryService/target/classes/org/kys/clothing/dataQuary/InventoryQuary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryService/target/classes/org/kys/clothing/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryService/target/classes/org/kys/clothing/service/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCardsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCardsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelDataSource/target/classes/org/kys/clothing/Good/GoodsBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/ModelDataSource/target/classes/org/kys/clothing/Good/GoodsBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelDataSource/target/classes/org/kys/clothing/goodsCart/GoodsCardsBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/ModelDataSource/target/classes/org/kys/clothing/goodsCart/GoodsCardsBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/OrderService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/OrderService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/controller/OderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/controller/OderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OrderDataQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OrderDataQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/controller/OderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/controller/OderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/dataQuery/OrderDataQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/dataQuery/OrderDataQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/fegin/InventoryFegin.class" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/fegin/InventoryFegin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/target/classes/org/kys/clothing/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/dataQuery/UserDataQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/dataQuery/UserDataQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/org/kys/clothing/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/target/classes/org/kys/clothing/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/org/kys/clothing/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/target/classes/org/kys/clothing/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +96,8 @@
     <ignored path="$PROJECT_DIR$/GoodsCartService/target/" />
     <ignored path="$PROJECT_DIR$/InventoryService/target/" />
     <ignored path="$PROJECT_DIR$/CommentService/target/" />
+    <ignored path="$PROJECT_DIR$/AdminService/target/" />
+    <ignored path="$PROJECT_DIR$/ZuulService/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,110 +136,119 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DiscountsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/controller/DiscountsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscountsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/service/DiscountsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscountsClothingQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/dataQuery/DiscountsClothingQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCartController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-                <element signature="e#1925#1926#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#1991#1992#0" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
-                <element signature="e#2129#2130#0" expanded="true" />
-                <element signature="e#2161#2162#0" expanded="true" />
-                <element signature="e#2225#2226#0" expanded="true" />
-                <element signature="e#2267#2268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCartService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/service/GoodsCartService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCartQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/dataQuery/GoodsCartQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscountFegin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/DiscountFegin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserFegin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/UserFegin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+            <state relative-caret-position="521">
+              <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4396#4397#0" expanded="true" />
+                <element signature="e#4448#4449#0" expanded="true" />
+                <element signature="e#4556#4557#0" expanded="true" />
+                <element signature="e#4609#4610#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountsFegin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java">
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="798">
+              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+              <folding>
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsDataQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/dataQuery/GoodsDataQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="25" column="121" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/de4e171e-4cde-4feb-8a0d-4aa013d8778a/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="97" selection-start-column="97" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+              <folding>
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryFegin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inventory" pinned="false" current-in-tab="false">
+        <entry file="das://de4e171e-4cde-4feb-8a0d-4aa013d8778a/schema/clothing/table/inventory">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+              <folding>
+                <element signature="e#2144#2145#0" expanded="true" />
+                <element signature="e#2193#2194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsFegin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/GoodsFegin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +259,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -178,6 +269,9 @@
       <find>get_discounts_information</find>
       <find>get_goods_information</find>
       <find>Cookie</find>
+      <find>get_all_user_goods</find>
+      <find>update_inventory</find>
+      <find>get_all_goods_by_page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,57 +280,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OrderService/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCards.java" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/Goods.java" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCardsBean.java" />
-        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java" />
-        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/feginHystrix/DiscountsHystrix.java" />
-        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/feginHystrix/UserHystrix.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OderService.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OderDataQuery.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/feginHystrix/DiscountsHystrix.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/GoodsCardsFegin.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/feginHystrix/GoodsCardsHystrix.java" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/order/Order.java" />
-        <option value="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java" />
-        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/GoodsCartApplication.java" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/InventoryApplication.java" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/INventoryController.java" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/feginHystrix/GoodsCardsHystrix.java" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/inventroy/Inventory.java" />
-        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/inventroy/InventoryBean.java" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/dataQuary/InventoryQuary.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java" />
-        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/feginHystrix/InventoryHystrix.java" />
         <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/order/OrderBean.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OrderDataQuery.java" />
-        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/controller/OderController.java" />
-        <option value="$PROJECT_DIR$/CommentService/pom.xml" />
-        <option value="$PROJECT_DIR$/CommentService/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/CommentApplication.java" />
         <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/comment/Comment.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/de4e171e-4cde-4feb-8a0d-4aa013d8778a/console.sql" />
-        <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/service/CommentService.java" />
         <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/dateQuery/CommentDataQuery.java" />
-        <option value="$PROJECT_DIR$/GoodsCartService/pom.xml" />
-        <option value="$PROJECT_DIR$/OrderService/pom.xml" />
         <option value="$PROJECT_DIR$/InventoryService/pom.xml" />
         <option value="$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/service/DiscountsService.java" />
         <option value="$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/dataQuery/DiscountsClothingQuery.java" />
         <option value="$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/controller/DiscountsController.java" />
         <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/DiscountFegin.java" />
         <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/UserFegin.java" />
+        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/feginHystrix/UserHystrix.java" />
+        <option value="$PROJECT_DIR$/AdminService/pom.xml" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/AdminApplication.java" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/CommentService/pom.xml" />
+        <option value="$PROJECT_DIR$/OrderService/pom.xml" />
+        <option value="$PROJECT_DIR$/GoodsService/pom.xml" />
+        <option value="$PROJECT_DIR$/GoodsCartService/pom.xml" />
+        <option value="$PROJECT_DIR$/CommentService/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java" />
+        <option value="$PROJECT_DIR$/ZuulService/pom.xml" />
+        <option value="$PROJECT_DIR$/ZuulService/src/main/java/cloth/ZuulMain.java" />
+        <option value="$PROJECT_DIR$/ZuulService/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ZuulService/src/main/java/cloth/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/CommentApplication.java" />
+        <option value="$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/PageUtil.java" />
+        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCardsBean.java" />
+        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/controller/OderController.java" />
+        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OrderDataQuery.java" />
+        <option value="$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/datePackaging/ReturnListDataPackaging.java" />
+        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java" />
         <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/dataQuery/GoodsCartQuery.java" />
         <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/service/GoodsCartService.java" />
-        <option value="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java" />
+        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java" />
+        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/dataQuary/InventoryQuary.java" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/UserFegin.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/service/UserService.java" />
+        <option value="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/dataQuery/GoodsDataQuery.java" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/GoodsFegin.java" />
+        <option value="$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/dataQuery/UserDataQuery.java" />
+        <option value="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/de4e171e-4cde-4feb-8a0d-4aa013d8778a/console.sql" />
+        <option value="$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java" />
+        <option value="$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java" />
       </list>
     </option>
   </component>
@@ -256,9 +350,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
-    <option name="width" value="779" />
-    <option name="height" value="866" />
+    <option name="x" value="348" />
+    <option name="y" value="317" />
+    <option name="width" value="789" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,7 +361,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,80 +371,25 @@
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="DiscountsService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="dataQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -358,7 +397,7 @@
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -367,40 +406,12 @@
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="clothing" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="fegin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="GoodsCartService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
@@ -446,28 +457,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="clothing" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="InventoryService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clothing-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clothing-website" type="462c0819:PsiDirectoryNode" />
-              <item name="UserService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,20 +483,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cloth" />
       <recent name="org.kys.clothing.service" />
       <recent name="org.kys.clothing" />
       <recent name="org.kys.clothing.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ZuulService/src/main/resources" />
+      <recent name="$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing" />
+      <recent name="$PROJECT_DIR$/AdminService/src/main/resources" />
       <recent name="$PROJECT_DIR$/CommentService/src/main/resources" />
       <recent name="$PROJECT_DIR$/InventoryService/src/main/resources" />
-      <recent name="$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing" />
-      <recent name="$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing" />
-      <recent name="$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -518,9 +516,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.29322815" />
+    <option name="contentProportion" value="0.20710059" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GoodsCardApplication">
+  <component name="RunManager" selected="Spring Boot.GoodsApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -539,6 +537,14 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AdminService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.kys.clothing.AdminApplication" />
+    </configuration>
+    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CommentService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.kys.clothing.CommentApplication" />
     </configuration>
     <configuration name="DiscountsApplicton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="DiscountsService" />
@@ -571,6 +577,10 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.kys.clothing.UserApplicatin" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ZuulService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cloth.ZuulApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -601,6 +611,9 @@
       <item itemvalue="Spring Boot.GoodsCardApplication" />
       <item itemvalue="Spring Boot.OderApplication" />
       <item itemvalue="Spring Boot.InventoryApplication" />
+      <item itemvalue="Spring Boot.CommentApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -626,12 +639,26 @@
       <workItem from="1526794501125" duration="17149000" />
       <workItem from="1526868361143" duration="7899000" />
       <workItem from="1526902069599" duration="331000" />
-      <workItem from="1526909382837" duration="1942000" />
+      <workItem from="1526909382837" duration="5617000" />
+      <workItem from="1526956942118" duration="3784000" />
+      <workItem from="1526961892128" duration="5889000" />
+      <workItem from="1527050728205" duration="30000" />
+      <workItem from="1527050790650" duration="2746000" />
+      <workItem from="1527119229684" duration="614000" />
+      <workItem from="1527167178273" duration="974000" />
+      <workItem from="1527212099310" duration="1892000" />
+      <workItem from="1527246461879" duration="6789000" />
+      <workItem from="1527294357351" duration="66000" />
+      <workItem from="1527294445698" duration="11665000" />
+      <workItem from="1527345915582" duration="849000" />
+      <workItem from="1527381330339" duration="20853000" />
+      <workItem from="1527564824141" duration="4666000" />
+      <workItem from="1527642022518" duration="9287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61234000" />
+    <option name="totallyTimeSpent" value="135013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,16 +671,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5006443" side_tool="true" weight="0.51417005" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5006443" side_tool="true" weight="0.25641027" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.21198453" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" weight="0.23775773" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.18878865" />
+      <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" weight="0.29252577" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -663,12 +689,13 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32928476" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="13" weight="0.5330634" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32928476" />
+      <window_info anchor="bottom" id="Run Dashboard" order="12" sideWeight="0.49935567" weight="0.65047234" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32928476" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32928476" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32928476" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49935567" weight="0.32928476" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19329897" />
+      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49935567" side_tool="true" weight="0.5748988" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.20296392" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.19587629" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
@@ -676,7 +703,6 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49935567" weight="0.20242915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -691,7 +717,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/controller/UserController.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/dataQuery/GoodsDataQuery.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -699,62 +745,236 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/feginHystrix/GoodsCardsHystrix.java">
+    <entry file="file://$PROJECT_DIR$/ZuulService/src/main/java/cloth/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="152">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/InventoryApplication.java">
+    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/feginHystrix/GoodsCardsHystrix.java" />
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/fegin/GoodsCardsFegin.java" />
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/InventoryFegin.kt" />
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/GoodsCardsFegin.java">
+    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/dateQuery/CommentDataQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/dataQuary/InventoryQuary.java">
+    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java">
+    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/CommentApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/feginHystrix/InventoryHystrix.java">
+    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/GoodsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/user/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/GoodsCartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/UserApplicatin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/UserFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/DiscountFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="163">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OrderDataQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://de4e171e-4cde-4feb-8a0d-4aa013d8778a/schema/clothing/table/order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/datePackaging/ReturnListDataPackaging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/order/OrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCardsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2154#2155#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2286#2287#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+          <folding>
+            <element signature="e#3732#3733#0" expanded="true" />
+            <element signature="e#3790#3791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/fegin/GoodsCardsFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/dataQuery/GoodsCartQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -765,83 +985,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/goodsCart/GoodsCardsBean.java">
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="1083">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java">
+    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/service/GoodsCartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="760">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+          <folding>
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/order/OrderBean.java">
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/dataQuery/OrderDataQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="231">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/controller/OderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="143">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/OrderService/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OrderService/src/main/java/org/kys/clothing/OderApplication.java">
+    <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="95">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/CommentApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+    <entry file="das://de4e171e-4cde-4feb-8a0d-4aa013d8778a/schema/clothing/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -852,157 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/comment/CommentBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/de4e171e-4cde-4feb-8a0d-4aa013d8778a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="64" selection-start-column="64" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/dateQuery/CommentDataQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EurekaService/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommentService/src/main/java/org/kys/clothing/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/GoodsCartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OrderService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-959" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InventoryService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringUtilTool/src/main/java/org/kys/util/PageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/fegin/DiscountsFegin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/service/DiscountsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/dataQuery/DiscountsClothingQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DiscountsService/src/main/java/org/kys/clothing/controller/DiscountsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/UserFegin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/fegin/DiscountFegin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://de4e171e-4cde-4feb-8a0d-4aa013d8778a/schema/clothing/table/goods_cards">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1010,37 +1059,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/dataQuery/GoodsCartQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AdminService/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/service/GoodsCartService.java">
+    <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/UserFegin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoodsCartService/src/main/java/org/kys/clothing/controller/GoodsCartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserService/src/main/java/org/kys/clothing/dataQuery/UserDataQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/dataQuary/InventoryQuary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/controller/InventoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+          <folding>
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InventoryService/src/main/java/org/kys/clothing/service/InventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://de4e171e-4cde-4feb-8a0d-4aa013d8778a/schema/clothing/table/inventory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/dataQuery/GoodsDataQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="25" column="121" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/de4e171e-4cde-4feb-8a0d-4aa013d8778a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="97" selection-start-column="97" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelDataSource/src/main/java/org/kys/clothing/Good/GoodsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/InventoryFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminService/src/main/java/org/kys/clothing/fegin/GoodsFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="118" column="31" lean-forward="true" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4396#4397#0" expanded="true" />
+            <element signature="e#4448#4449#0" expanded="true" />
+            <element signature="e#4556#4557#0" expanded="true" />
+            <element signature="e#4609#4610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoodsService/src/main/java/org/kys/clothing/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
           </folding>
         </state>
       </provider>

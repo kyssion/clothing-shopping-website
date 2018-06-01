@@ -15,19 +15,43 @@ public class OderController {
     @Autowired
     OrderService orderService;
 
+    /**
+     * 创建订单
+     *
+     * @param userCode
+     * @return
+     */
     @RequestMapping("create_order")
-    public boolean createOrder(@RequestParam("userCode")String userCode){
+    public String createOrder(@RequestParam("userCode") String userCode) {
         return orderService.createOrderByUserCode(userCode);
     }
-
+    /**
+     * 查看所有的订单
+     *
+     * @param userCode
+     * @param orderId
+     * @return
+     */
     @RequestMapping("show_order")
-    public List<OrderBean> getOrderInformation(@RequestParam("userCode")String userCode,@RequestParam("orderId")@Nullable String orderId){
-        return orderService.getOrderInformation(userCode,orderId);
+    public List<OrderBean> getOrderInformation(@RequestParam("userCode") String userCode, @RequestParam("orderId") @Nullable String orderId) {
+        return orderService.getOrderInformation(userCode, orderId);
     }
 
+    /**
+     * 改变订单状态
+     *
+     * @param orderId
+     * @param status
+     * @return
+     */
     @RequestMapping("change_order_status")
-    public boolean changeOrderStatus(@RequestParam("orderId")String orderId,
-                                     @RequestParam("status")int status){
-        return orderService.changeOrderStatus(orderId,status);
+    public boolean changeOrderStatus(@RequestParam("orderId") String orderId,
+                                     @RequestParam("status") int status) {
+        return orderService.changeOrderStatus(orderId, status);
+    }
+
+    @RequestMapping("delete_order")
+    public boolean deleteOrder(@RequestParam("orderId")String orderId){
+        return orderService.deleteOrder(orderId);
     }
 }

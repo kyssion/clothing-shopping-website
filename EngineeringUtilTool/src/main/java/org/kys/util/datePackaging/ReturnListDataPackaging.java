@@ -5,8 +5,23 @@ import java.util.List;
 public class ReturnListDataPackaging<T> {
     public List infomation;
 
+    public int pageAll;
+
     public ReturnListDataPackaging(List list){
         this.infomation=list;
+    }
+
+    public int getPageAll() {
+        return pageAll;
+    }
+
+    public void setPageAll(int pageAll) {
+        this.pageAll = pageAll;
+    }
+
+    public ReturnListDataPackaging(List list, int pageAll){
+        this.infomation=list;
+        this.pageAll=pageAll;
     }
 
     public List getInfomation() {

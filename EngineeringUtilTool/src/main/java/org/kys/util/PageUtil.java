@@ -9,4 +9,8 @@ public class PageUtil {
     public static ReturnListDataPackaging getReturnListPackaging(List list){
         return new ReturnListDataPackaging(list);
     }
+
+    public static ReturnListDataPackaging getReturnListPackaging(List list,int all){
+        return new ReturnListDataPackaging(list,all);
+    }
 }

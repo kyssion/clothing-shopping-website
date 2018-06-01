@@ -17,8 +17,8 @@ public class CommentService {
     public boolean addComment(CommentBean commentBean) {
         commentBean.setAddTime(String.valueOf(new Date().getTime()));
         commentBean.setStatus(1);
-        int a= commentDataQuery.addComment(commentBean);
-        return a>0?true:false;
+        int a = commentDataQuery.addComment(commentBean);
+        return a > 0 ? true : false;
     }
 
     public List<CommentBean> findCommentBysku(String sku) {

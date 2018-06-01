@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 @Component
-@FeignClient(value = "nventory-service")
+@FeignClient(value = "inventory-service")
 public interface InventoryFegin {
-    @RequestMapping(value = "get_inventory_list",method = RequestMethod.POST)
+    @RequestMapping(value = "get_inventory_list_by_sku_list",method = RequestMethod.POST)
     List<InventoryBean> getInventoryBeans(@RequestBody List<String> skus);
 
     @RequestMapping(value = "update_inventory_list",method = RequestMethod.POST)

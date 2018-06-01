@@ -16,7 +16,7 @@ public class UserHystrix implements UserFegin {
     private static final Logger logger = LoggerFactory.getLogger(UserHystrix.class);
 
     @Override
-    public UserBean getDiscountsGoods(String userCode) {
+    public UserBean getUserInfo(String userCode) {
         return null;
     }
 }

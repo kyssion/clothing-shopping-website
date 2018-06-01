@@ -1,6 +1,5 @@
 package org.kys.clothing.service;
 
-import org.kys.clothing.Good.GoodsBean;
 import org.kys.clothing.dataQuery.GoodsCartQuery;
 import org.kys.clothing.goodsCart.GoodsCardsBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,40 +17,53 @@ public class GoodsCartService {
     public List<GoodsCardsBean> getUserGoodsCart(String userCode) {
         return goodsCartQuery.getUserGoodsCart(userCode);
     }
-    public boolean removeGoodsItem(String userCode){
-        Integer i = goodsCartQuery.removeGoodsItem(userCode);
-        if (i>0){
+
+    public boolean removeGoodsItem(String userCode) {
+        Integer i = goodsCartQuery.removeGoodsItembyUserCode(userCode);
+        if (i > 0) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
-    public boolean removeGoodsItem(String userCode,String sku){
-        Integer i = goodsCartQuery.removeGoodsItem(userCode,sku);
-        if (i>0){
+
+    public boolean removeGoodsItem(String userCode, String sku) {
+        Integer i = goodsCartQuery.removeGoodsItemByCodeAndSku(userCode, sku);
+        if (i > 0) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
+
     @Transactional
-    public boolean updateUserGoodsCards(String sku,String userCode, List<GoodsCardsBean> goodsList) {
-        int a=0;
-        for (GoodsCardsBean bean:goodsList){
-            this.removeGoodsItem(userCode,sku);
-            a+=goodsCartQuery.addGoodsItem(bean);
+    public boolean updateUserGoodsCards(String userCode, String sku, int number) {
+        Integer iii = goodsCartQuery.updateGoodsCartds(userCode, sku, number);
+        int a = iii == null ? 0 : 1;
+        return a > 0 ? true : false;
+    }
+
+    public boolean addGoodsInCards(String sku, String userCode, int number,String color,String size) {
+        GoodsCardsBean goodsCardsBean = goodsCartQuery.getUserGoodsCartItem(userCode, sku);
+
+        if (goodsCardsBean == null||!(goodsCardsBean.getSize().equals(size))||
+                !goodsCardsBean.getColor().equals(color)) {
+            goodsCardsBean= new GoodsCardsBean();
+            goodsCardsBean.setSku(sku);
+            goodsCardsBean.setSkuNumber(number);
+            goodsCardsBean.setCardsId(userCode + new Date().getTime());
+            goodsCardsBean.setUserCode(userCode);
+            goodsCardsBean.setColor(color);
+            goodsCardsBean.setSize(size);
+            Integer i = goodsCartQuery.addGoodsItem(goodsCardsBean);
+            return i==null||i==0?false:true;
+        }else{
+            return updateUserGoodsCards(userCode,sku,(int)goodsCardsBean.getSkuNumber()+number);
         }
-        return a>0?true:false;
     }
 
-    public int addGoodsInCards(String sku,String userCode) {
-        GoodsCardsBean goodsCardsBean =
-                new GoodsCardsBean();
-        goodsCardsBean.setSku(sku);
-        goodsCardsBean.setSkuNumber(1);
-        goodsCardsBean.setCardsId(userCode+new Date().getTime());
-        goodsCardsBean.setUserCode(userCode);
-        return goodsCartQuery.addGoodsItem(goodsCardsBean);
+    public boolean deleteGoodsCards(String userCode, String sku) {
+        Integer iii = goodsCartQuery.removeGoodsItemByCodeAndSku(userCode, sku);
+        return iii == null || iii == 0 ? false : true;
     }
-
 }

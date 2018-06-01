@@ -15,7 +15,7 @@ public class GoodsService {
     GoodsDataQuery goodsDataQuery;
 
     public List<GoodsBean> getAllGoodsInfo(int page, int pageSize) {
-        List<GoodsBean> goodsList= goodsDataQuery.SelectAllGoods(page,pageSize);
+        List<GoodsBean> goodsList= goodsDataQuery.SelectAllGoods(page*pageSize,pageSize);
         return goodsList;
     }
 
@@ -26,5 +26,29 @@ public class GoodsService {
             goodsBean.setDiscountMoney(discountsBean.getDiscountsMoney());
         }
         return goodsBean;
+    }
+
+    public List<GoodsBean> getAllGoodsInfobycategration(int i, int pageSize, int categration,int c) {
+        return goodsDataQuery.SelectAllGoodsbyCategration(i*pageSize,pageSize,categration,c);
+    }
+    public List<GoodsBean> getAllFGoodsInfobycategration(int i, int pageSize, int categration) {
+        return goodsDataQuery.SelectFAllGoodsbyCategration(i*pageSize,pageSize,categration);
+    }
+
+    public Integer getAllGoodsInfoNumber(int categration, int c) {
+        return goodsDataQuery.getAllGoodsInfoNumber(categration,c);
+    }
+
+    public List<GoodsBean> getAllgoods(int number) {
+        return goodsDataQuery.getAllgoods(number*20);
+    }
+
+    public boolean deleteGoods(String sku) {
+        return goodsDataQuery.deleteSku(sku);
+    }
+
+    public boolean insert(GoodsBean goodsBean) {
+        goodsDataQuery.deleteSku(goodsBean.getSku());
+        return goodsDataQuery.insert(goodsBean);
     }
 }

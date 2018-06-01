@@ -14,10 +14,58 @@ public class GoodsCardsBean {
   private String categroyName;
   private long money;
   private String img;
-  private long color;
+  private String color;
   private String size;
   private String style;
   private String information;
+
+  public long getId() {
+    return id;
+  }
+
+  public void setId(long id) {
+    this.id = id;
+  }
+
+  public String getCardsId() {
+    return cardsId;
+  }
+
+  public void setCardsId(String cardsId) {
+    this.cardsId = cardsId;
+  }
+
+  public String getSku() {
+    return sku;
+  }
+
+  public void setSku(String sku) {
+    this.sku = sku;
+  }
+
+  public long getSkuNumber() {
+    return skuNumber;
+  }
+
+  public void setSkuNumber(long skuNumber) {
+    this.skuNumber = skuNumber;
+  }
+
+  public long getAddTime() {
+    return addTime;
+  }
+
+  public void setAddTime(long addTime) {
+    this.addTime = addTime;
+  }
+
+  public String getUserCode() {
+    return userCode;
+  }
+
+  public void setUserCode(String userCode) {
+    this.userCode = userCode;
+  }
 
   public String getGoodsName() {
     return goodsName;
@@ -59,11 +107,11 @@ public class GoodsCardsBean {
     this.img = img;
   }
 
-  public long getColor() {
+  public String getColor() {
     return color;
   }
 
-  public void setColor(long color) {
+  public void setColor(String color) {
     this.color = color;
   }
 
@@ -90,58 +138,4 @@ public class GoodsCardsBean {
   public void setInformation(String information) {
     this.information = information;
   }
-
-  public long getId() {
-    return id;
-  }
-
-  public void setId(long id) {
-    this.id = id;
-  }
-
-
-  public String getCardsId() {
-    return cardsId;
-  }
-
-  public void setCardsId(String cardsId) {
-    this.cardsId = cardsId;
-  }
-
-
-  public String getSku() {
-    return sku;
-  }
-
-  public void setSku(String sku) {
-    this.sku = sku;
-  }
-
-
-  public long getSkuNumber() {
-    return skuNumber;
-  }
-
-  public void setSkuNumber(long skuNumber) {
-    this.skuNumber = skuNumber;
-  }
-
-
-  public long getAddTime() {
-    return addTime;
-  }
-
-  public void setAddTime(long addTime) {
-    this.addTime = addTime;
-  }
-
-
-  public String getUserCode() {
-    return userCode;
-  }
-
-  public void setUserCode(String userCode) {
-    this.userCode = userCode;
-  }
-
 }

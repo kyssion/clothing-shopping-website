@@ -6,6 +6,8 @@ import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserService {
 
@@ -22,6 +24,15 @@ public class UserService {
     }
 
     public boolean isRegister(String userCode) {
-        return userDataQuery.isRegister(userCode)==null?false:true;
+        Integer integer = userDataQuery.isRegister(userCode);
+        return integer==null||integer==0?false:true;
+    }
+
+    public List<UserBean> getAllUser() {
+        return userDataQuery.getAllUser();
+    }
+
+    public boolean deleteUserCode(String userCode) {
+        return userDataQuery.deleteUser(userCode);
     }
 }

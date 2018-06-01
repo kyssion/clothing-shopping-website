@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AdminService" />
         <module name="CommentService" />
         <module name="DiscountsService" />
         <module name="EngineeringUtilTool" />
@@ -16,9 +17,11 @@
         <module name="ModelDataSource" />
         <module name="OrderService" />
         <module name="UserService" />
+        <module name="ZuulService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AdminService" target="1.8" />
       <module name="clothing-website" target="1.8" />
       <module name="CommentService" target="1.8" />
       <module name="DiscountsService" target="1.8" />
@@ -30,6 +33,7 @@
       <module name="ModelDataSource" target="1.8" />
       <module name="OrderService" target="1.8" />
       <module name="UserService" target="1.8" />
+      <module name="ZuulService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

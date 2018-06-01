@@ -10,29 +10,23 @@ public class GoodsBean {
   private String categroyName;
   private long money;
   private String img;
-  private long color;
+  private String color;
   private String size;
   private String sizeId;
   private String style;
   private String information;
   private boolean isDiscount;
   private long discountMoney;
+  private String fCategrationId;
+  private String fCategrationName;
+  private int inventoryNumber;
 
-  public long getDiscountMoney() {
-    return discountMoney;
+  public int getInventory() {
+    return inventoryNumber;
   }
 
-  public void setDiscountMoney(long discountMoney) {
-    this.discountMoney = discountMoney;
-  }
-
-  public boolean isDiscount() {
-
-    return isDiscount;
-  }
-
-  public void setDiscount(boolean discount) {
-    isDiscount = discount;
+  public void setInventory(int inventory) {
+    this.inventoryNumber = inventory;
   }
 
   public long getId() {
@@ -91,11 +85,11 @@ public class GoodsBean {
     this.img = img;
   }
 
-  public long getColor() {
+  public String getColor() {
     return color;
   }
 
-  public void setColor(long color) {
+  public void setColor(String color) {
     this.color = color;
   }
 
@@ -129,5 +123,37 @@ public class GoodsBean {
 
   public void setInformation(String information) {
     this.information = information;
+  }
+
+  public boolean isDiscount() {
+    return isDiscount;
+  }
+
+  public void setDiscount(boolean discount) {
+    isDiscount = discount;
+  }
+
+  public long getDiscountMoney() {
+    return discountMoney;
+  }
+
+  public void setDiscountMoney(long discountMoney) {
+    this.discountMoney = discountMoney;
+  }
+
+  public String getfCategrationId() {
+    return fCategrationId;
+  }
+
+  public void setfCategrationId(String fCategrationId) {
+    this.fCategrationId = fCategrationId;
+  }
+
+  public String getfCategrationName() {
+    return fCategrationName;
+  }
+
+  public void setfCategrationName(String fCategrationName) {
+    this.fCategrationName = fCategrationName;
   }
 }

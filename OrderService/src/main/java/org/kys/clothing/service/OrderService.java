@@ -27,7 +27,7 @@ public class OrderService {
     InventoryFegin inventoryFegin;
 
     @Transactional
-    public boolean createOrderByUserCode(String userCode) {
+    public String createOrderByUserCode(String userCode) {
         List<GoodsCardsBean> goodsCardsBeans = goodsCardsFegin.getAllUserGoods(userCode);
 
         List<String> skus= this.getSkuList(goodsCardsBeans);
@@ -44,7 +44,10 @@ public class OrderService {
             }
             inventory=(int)bean.getInventoryNumber()-(int)goodsCardsBean.getSkuNumber();
             if (inventory<0){
-                return false;
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put("code",false);
+                jsonObject.put("sku",goodsCardsBean.getGoodsName());
+                return jsonObject.toJSONString();
             }
             bean.setInventoryNumber(inventory);
         }
@@ -60,8 +63,10 @@ public class OrderService {
 
         int a = orderDataQuery.insertOrderInfo(orderBean);
         int b = inventoryFegin.updateInventory(inventoryBeans);
-
-        return a > 0&&b>0 ? true : false;
+        int c = orderDataQuery.deleteGoodsCardsInfo(userCode);
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("code",true);
+        return jsonObject.toJSONString();
     }
     public List<String> getSkuList(List<GoodsCardsBean> goodsCardsBeans){
         List<String> skus = new ArrayList<>();
@@ -73,7 +78,7 @@ public class OrderService {
 
     public List<OrderBean> getOrderInformation(String userCode,String orderId) {
         List<OrderBean> orderBeans = null;
-        if (orderId==null){
+        if (orderId!=null){
             orderBeans= orderDataQuery.getOrderListByUserAndId(userCode,orderId);
         }else{
             orderBeans= orderDataQuery.getOrderListByUser(userCode);
@@ -81,11 +86,16 @@ public class OrderService {
         for(OrderBean bean:orderBeans){
             List<GoodsCardsBean> cardsBeans = JSONObject.parseArray(bean.getGoodsInfo(),GoodsCardsBean.class);
             bean.setGoodsCardsBeans(cardsBeans);
+            bean.setGoodsInfo(null);
         }
         return orderBeans;
     }
 
     public boolean changeOrderStatus(String orderId, int status) {
         return orderDataQuery.changeOrderStatus(orderId,status);
+    }
+
+    public boolean deleteOrder(String orderId) {
+        return orderDataQuery.deleteOrder(orderId);
     }
 }

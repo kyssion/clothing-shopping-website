@@ -37,16 +37,24 @@ public class GoodsCartController {
         return goodsCartService.getUserGoodsCart(userCode);
     }
 
+
     /**
      * 修改购物车的信息
-     * @param param
+     * @param
      * @return
      */
-    @RequestMapping("update_user_goods_card")
-    public boolean changeGoddsCardsItem(@RequestBody Param param){
-        return goodsCartService.updateUserGoodsCards(param.getSku(),param.getUserCode(),param.getGoodsList());
+    @RequestMapping(value = "update_user_goods_card",method = RequestMethod.GET)
+    public boolean changeGoddsCardsItem(@RequestParam("userCode")String userCode,@RequestParam("sku")String sku,
+                                        @RequestParam("number")int number){
+        return goodsCartService.updateUserGoodsCards(userCode,sku,number);
     }
 
+
+    @RequestMapping(value = "delete_goods_carts",method = RequestMethod.GET)
+    public boolean delteteGoodsCartsItem(@RequestParam("userCode")String userCode,
+                                         @RequestParam("sku")String sku){
+        return goodsCartService.deleteGoodsCards(userCode,sku);
+    }
 
     /**
      * 添加进购物车注意购物车中并不需要添加商品信息
@@ -54,37 +62,10 @@ public class GoodsCartController {
      * @param userCode
      * @return
      */
-    public boolean addGoodsInGoodsCards(@RequestParam("sku")String sku,@RequestParam("userCode")String userCode){
-        int a=goodsCartService.addGoodsInCards(sku,userCode);
-        return a>0?true:false;
-    }
-}
-class Param{
-    String userCode;
-    String sku;
-    List<GoodsCardsBean> goodsList;
-
-    public String getSku() {
-        return sku;
-    }
-
-    public void setSku(String sku) {
-        this.sku = sku;
-    }
-
-    public String getUserCode() {
-        return userCode;
-    }
-
-    public void setUserCode(String userCode) {
-        this.userCode = userCode;
-    }
-
-    public List<GoodsCardsBean> getGoodsList() {
-        return goodsList;
-    }
-
-    public void setGoodsList(List<GoodsCardsBean> goodsList) {
-        this.goodsList = goodsList;
+    @RequestMapping("add_goods_in_cards")
+    public boolean addGoodsInGoodsCards(@RequestParam("sku")String sku,@RequestParam("userCode")String userCode,
+                                        @RequestParam("number")int number,@RequestParam("color")String color,
+                                        @RequestParam("size")String size){
+        return goodsCartService.addGoodsInCards(sku,userCode,number,color,size);
     }
 }

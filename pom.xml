@@ -17,6 +17,8 @@
         <module>GoodsCartService</module>
         <module>InventoryService</module>
         <module>CommentService</module>
+        <module>AdminService</module>
+        <module>ZuulService</module>
     </modules>
     <packaging>pom</packaging>
 
