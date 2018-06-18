@@ -17,6 +17,7 @@ public class GoodsCardsHystrix implements GoodsCardsFegin {
 
     @Override
     public List<GoodsCardsBean> getAllUserGoods(String userCode) {
+        logger.error("当前商品查询发生异常请重试");
         return null;
     }
 }

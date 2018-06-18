@@ -35,4 +35,8 @@ public class UserService {
     public boolean deleteUserCode(String userCode) {
         return userDataQuery.deleteUser(userCode);
     }
+
+    public UserBean loginAdmin(String userCode, String password) {
+        return userDataQuery.getUserInfoAdmin(userCode);
+    }
 }

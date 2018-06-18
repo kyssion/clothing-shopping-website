@@ -3,15 +3,22 @@ package org.kys.clothing.controller;
 import org.kys.clothing.Good.GoodsBean;
 import org.kys.clothing.discounts.DiscountsBean;
 import org.kys.clothing.fegin.DiscountsFegin;
+import org.kys.clothing.fegin.InventoryFegin;
+import org.kys.clothing.inventroy.InventoryBean;
+import org.kys.clothing.returnI.GoodsBeanList;
 import org.kys.clothing.service.GoodsService;
 import org.kys.util.PageUtil;
 import org.kys.util.datePackaging.ReturnListDataPackaging;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.domain.Page;
+import org.springframework.lang.Nullable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -23,6 +30,8 @@ public class GoodsController {
     @Autowired
     DiscountsFegin discountsFegin;
 
+    @Autowired
+    InventoryFegin inventoryFegin;
 
     /**
      * 查询所有的服装信息
@@ -52,8 +61,8 @@ public class GoodsController {
         pageSize = pageSize == -1 ? PageUtil.EACH_PAGE_SIZE : pageSize;
         Integer all = goodsService.getAllGoodsInfoNumber(categration, c);
         all = all == null ? 0 : all;
-        int number = all / 12;
-        if (all % 12 > 0) {
+        int number = all / pageSize;
+        if (all % pageSize > 0) {
             number++;
         }
         List<GoodsBean> list = goodsService.getAllGoodsInfobycategration(page - 1, pageSize, categration, c);
@@ -100,7 +109,8 @@ public class GoodsController {
     @RequestMapping("get_goods_information")
     public GoodsBean getGoodsInformation(@RequestParam("sku") String sku) {
         DiscountsBean discountsBean = discountsFegin.getDiscountsInformationBySku(sku);
-        return goodsService.getGoodsInformation(discountsBean, sku);
+        InventoryBean inventoryBean = inventoryFegin.getInventoryBean(sku);
+        return goodsService.getGoodsInformation(discountsBean,inventoryBean, sku);
     }
 
 
@@ -118,4 +128,13 @@ public class GoodsController {
     public boolean insertGoodsBean(@RequestBody GoodsBean goodsBean) {
         return goodsService.insert(goodsBean);
     }
+
+
+    @RequestMapping("get_all_a_goods")
+    public GoodsBeanList getAdminGoodsList(@RequestParam("page")int number, @RequestParam("sku")@Nullable String sku,
+                                           @RequestParam("c")@Nullable String categration,
+                                           @RequestParam("fc")@Nullable String fcategration){
+        return goodsService.getAdminGoodsList(number,sku,categration,fcategration);
+    }
+
 }

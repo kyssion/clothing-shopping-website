@@ -14,7 +14,25 @@ public class OrderBean {
   private long changeTime;
   private long status;
   private String userCode;
+  private int allMoney;
   private List<GoodsCardsBean> goodsCardsBeans;
+  private String statusName;
+
+  public String getStatusName() {
+    return statusName;
+  }
+
+  public void setStatusName(String statusName) {
+    this.statusName = statusName;
+  }
+
+  public int getAllMoney() {
+    return allMoney;
+  }
+
+  public void setAllMoney(int allMoney) {
+    this.allMoney = allMoney;
+  }
 
   public List<GoodsCardsBean> getGoodsCardsBeans() {
     return goodsCardsBeans;

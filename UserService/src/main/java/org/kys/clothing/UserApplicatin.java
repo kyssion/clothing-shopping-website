@@ -36,8 +36,7 @@ public class UserApplicatin {
      * @return
      */
     @Bean
-    public RedisTemplate<String, UserBean> redisTemplate(RedisConnectionFactory redisConnectionFactory)
-    {
+    public RedisTemplate<String, UserBean> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
         Jackson2JsonRedisSerializer<UserBean> jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<>(UserBean.class);
         ObjectMapper om = new ObjectMapper();
         om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);

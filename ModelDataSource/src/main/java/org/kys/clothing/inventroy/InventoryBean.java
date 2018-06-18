@@ -7,7 +7,24 @@ public class InventoryBean {
   private String sku;
   private long inventoryNumber;
   private long status;
+  private String goodsName;
+  private String img;
 
+  public String getGoodsName() {
+    return goodsName;
+  }
+
+  public void setGoodsName(String goodsName) {
+    this.goodsName = goodsName;
+  }
+
+  public String getImg() {
+    return img;
+  }
+
+  public void setImg(String img) {
+    this.img = img;
+  }
 
   public long getId() {
     return id;

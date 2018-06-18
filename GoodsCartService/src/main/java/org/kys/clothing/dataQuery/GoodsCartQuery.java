@@ -17,18 +17,20 @@ public interface GoodsCartQuery {
     @Delete("delete from goods_cards where userCode=#{userCode}")
     Integer removeGoodsItembyUserCode(@Param("userCode") String userCode);
 
-    @Insert("insert into goods_cards (cards_id, sku, sku_number, add_time, user_code,color,size)" +
-            "values(#{cardsId},#{sku},#{skuNumber},#{addTime},#{userCode},#{color},#{size})")
+    @Insert("insert into goods_cards (cards_id, sku, sku_number, add_time, user_code,color,size,discount,discount_style)" +
+            "values(#{cardsId},#{sku},#{skuNumber},#{addTime},#{userCode},#{color},#{size},#{discount},#{discountStyle})")
     Integer addGoodsItem(GoodsCardsBean bean);
 
-    @Delete("delete from goods_cards where userCode=#{user_code} and sku=#{sku}")
-    Integer removeGoodsItemByCodeAndSku(@Param("userCode") String userCode,@Param("sku") String sku);
+    @Delete("delete from goods_cards where user_code=#{userCode} and sku=#{sku} and size=#{size} and color=#{color}")
+    Integer removeGoodsItemByCodeAndSku(@Param("userCode") String userCode,@Param("sku") String sku,
+                                        @Param("size")String size,@Param("color")String color);
 
     @Update("update goods_cards set sku_number=#{number} where sku=#{sku} and user_code = #{userCode}")
     Integer updateGoodsCartds(@Param("userCode") String userCode,
                               @Param("sku") String sku,
                               @Param("number") int number);
 
-    @Select("select * from goods_cards where user_code = #{userCode} and sku = #{sku}")
-    GoodsCardsBean getUserGoodsCartItem(@Param("userCode") String userCode, @Param("sku") String sku);
+    @Select("select * from goods_cards where user_code = #{userCode} and sku = #{sku} and size=#{size} and color=#{color}")
+    GoodsCardsBean getUserGoodsCartItem(@Param("userCode") String userCode, @Param("sku") String sku,
+                                        @Param("size")String size,@Param("color")String color);
 }

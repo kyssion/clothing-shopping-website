@@ -1,6 +1,7 @@
 package org.kys.clothing.controller;
 
 import org.kys.clothing.order.OrderBean;
+import org.kys.clothing.returnI.OrderBeanList;
 import org.kys.clothing.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.Nullable;
@@ -53,5 +54,21 @@ public class OderController {
     @RequestMapping("delete_order")
     public boolean deleteOrder(@RequestParam("orderId")String orderId){
         return orderService.deleteOrder(orderId);
+    }
+
+
+    @RequestMapping("admin_get_order")
+    public OrderBeanList getAdminGetOrder(@RequestParam("page")int page,
+                                          @RequestParam("orderId")String orderId,
+                                          @RequestParam("userCode")String userCode){
+        page=page>=1?page-1:page;
+        if (orderId.equals("")){
+            orderId=null;
+        }
+
+        if (userCode.equals("")){
+            userCode=null;
+        }
+        return orderService.getAdminGetOrder(page,orderId,userCode);
     }
 }

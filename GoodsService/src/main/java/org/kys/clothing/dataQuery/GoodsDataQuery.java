@@ -29,7 +29,10 @@ public interface GoodsDataQuery {
     @Delete("delete from goods where sku=#{sku}")
     boolean deleteSku(@Param("sku") String sku);
 
-    @Insert("insert into goods (goods_name, sku, categroy_id, categroy_name, money, img, style, information, f_categration_name, f_categration_id) values" +
-                                "(#{goodsName},#{sku},#{categroyId},${categroyName},#{money},#{img},#{style},#{information},#{f_categration_name},#{f_categration_id})")
+    @Insert("insert into goods (goods_name, sku, categroy_id, categroy_name, money, img, information, f_categration_name, f_categration_id) values" +
+                                "(#{goodsName},#{sku},#{categroyId},#{categroyName},#{money},#{img},#{information},#{fCategrationName},#{fCategrationId})")
     boolean insert(GoodsBean goodsBean);
+
+    @Select("${sql}")
+    List<GoodsBean> adminSelect(@Param("sql") String sql);
 }

@@ -2,7 +2,9 @@ package org.kys.clothing.fegin;
 
 
 import org.kys.clothing.Good.GoodsBean;
+import org.kys.clothing.returnI.GoodsBeanList;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,4 +23,9 @@ public interface GoodsFegin{
 
     @RequestMapping("insert_goods")
     boolean insertGoodsBean(@RequestBody GoodsBean goodsBean);
+
+    @RequestMapping("get_all_a_goods")
+    GoodsBeanList getAdminGoodsList(@RequestParam("page")int number, @RequestParam("sku")@Nullable String sku,
+                                           @RequestParam("c")@Nullable String categration,
+                                           @RequestParam("fc")@Nullable String fcategration);
 }

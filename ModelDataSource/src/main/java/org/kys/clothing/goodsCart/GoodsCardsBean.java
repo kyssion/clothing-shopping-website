@@ -18,6 +18,33 @@ public class GoodsCardsBean {
   private String size;
   private String style;
   private String information;
+  private int discount;
+  private String discountStyle;
+  private int allMoney;
+
+  public int getAllMoney() {
+    return allMoney;
+  }
+
+  public void setAllMoney(int allMoney) {
+    this.allMoney = allMoney;
+  }
+
+  public int getDiscount() {
+    return discount;
+  }
+
+  public void setDiscount(int discount) {
+    this.discount = discount;
+  }
+
+  public String getDiscountStyle() {
+    return discountStyle;
+  }
+
+  public void setDiscountStyle(String discountStyle) {
+    this.discountStyle = discountStyle;
+  }
 
   public long getId() {
     return id;

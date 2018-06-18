@@ -24,4 +24,7 @@ public interface UserDataQuery {
 
     @Delete("delete from user where user_code = #{userCode}")
     boolean deleteUser(@Param("userCode") String userCode);
+
+    @Select("select * from user_admin where user_code = #{userCode}")
+    UserBean getUserInfoAdmin(@Param("userCode") String userCode);
 }

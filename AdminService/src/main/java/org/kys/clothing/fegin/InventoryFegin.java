@@ -2,7 +2,9 @@ package org.kys.clothing.fegin;
 
 import com.sun.org.apache.regexp.internal.RE;
 import org.kys.clothing.inventroy.InventoryBean;
+import org.kys.clothing.returnI.InventoryBeanList;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,4 +31,8 @@ public interface InventoryFegin {
 
     @RequestMapping(value = "update_inventory",method = RequestMethod.GET)
     int updateInventory(@RequestParam("sku")String sku,@RequestParam("number")int number);
+
+
+    @RequestMapping("admin_select_inventory")
+    InventoryBeanList getInventoryBeanList(@RequestParam("page")int page, @RequestParam("sku")@Nullable String sku);
 }

@@ -3,8 +3,10 @@ package org.kys.clothing.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.sun.org.apache.xerces.internal.xs.LSInputList;
 import org.kys.clothing.inventroy.InventoryBean;
+import org.kys.clothing.returnI.InventoryBeanList;
 import org.kys.clothing.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.Nullable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -36,6 +38,13 @@ public class InventoryController {
         return inventoryService.getInventoryBeans(skus);
     }
 
+    @RequestMapping("admin_select_inventory")
+    public InventoryBeanList getInventoryBeanList(@RequestParam("page")int page,@RequestParam("sku")@Nullable String sku){
+        if (sku.equals("")){
+            sku=null;
+        }
+        return inventoryService.getInventyBeanList(page,sku);
+    }
 
 
     /**

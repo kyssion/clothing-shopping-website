@@ -11,6 +11,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.constraints.Null;
 import java.util.List;
 
 @RestController
@@ -52,8 +53,9 @@ public class GoodsCartController {
 
     @RequestMapping(value = "delete_goods_carts",method = RequestMethod.GET)
     public boolean delteteGoodsCartsItem(@RequestParam("userCode")String userCode,
-                                         @RequestParam("sku")String sku){
-        return goodsCartService.deleteGoodsCards(userCode,sku);
+                                         @RequestParam("sku")String sku,@RequestParam("size")String size,
+                                         @RequestParam("color")String color){
+        return goodsCartService.deleteGoodsCards(userCode,sku,size,color);
     }
 
     /**
@@ -65,7 +67,8 @@ public class GoodsCartController {
     @RequestMapping("add_goods_in_cards")
     public boolean addGoodsInGoodsCards(@RequestParam("sku")String sku,@RequestParam("userCode")String userCode,
                                         @RequestParam("number")int number,@RequestParam("color")String color,
-                                        @RequestParam("size")String size){
-        return goodsCartService.addGoodsInCards(sku,userCode,number,color,size);
+                                        @RequestParam("size")String size,@RequestParam("discount")@Nullable int discount
+            ,@RequestParam("discount_style")@Nullable String style){
+        return goodsCartService.addGoodsInCards(sku,userCode,number,color,size,discount,style);
     }
 }

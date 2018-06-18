@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Component
@@ -16,12 +17,13 @@ public class DiscountsHystrix implements DiscountsFegin {
 
     @Override
     public List<GoodsBean> getDiscountsGoods(int page, int pageSize) {
+        logger.error("商品优惠查询异常:时间+{}",new Date().getTime());
         return new ArrayList<>();
     }
 
     @Override
     public DiscountsBean getDiscountsInformationBySku(String sku) {
-        logger.error("cuowu");
+        logger.error("商品优惠信息查询异常：+{}",new Date().getTime());
         return null;
     }
 }

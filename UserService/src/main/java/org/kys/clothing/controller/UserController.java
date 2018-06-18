@@ -38,6 +38,9 @@ public class UserController {
     public boolean UserLogin(@RequestParam("user_code") String code,
                              @RequestParam("password") String passwordsa, HttpServletResponse response) {
         UserBean userBean = userService.getUserInfo(code);
+        if (userBean==null){
+            return false;
+        }
         if (passwordsa.equals(userBean.getUserPassword())) {
             //if (userRedisTemplate.hasKey("login_information_"+code)==Boolean.FALSE) {
             Cookie cookie = new Cookie("login_information", "login_information_" + code);
@@ -74,7 +77,37 @@ public class UserController {
     }
 
     @RequestMapping("is_login")
-    public UserBean isLogin(@CookieValue(value = "login_information")@Nullable String httpCookie, HttpServletRequest request) {
+    public UserBean isLogin(@CookieValue(value = "login_information")@Nullable String httpCookie) {
+        if (httpCookie==null){
+            return null;
+        }
+        ValueOperations<String, UserBean> valueOperations = userRedisTemplate.opsForValue();
+        UserBean userBean = valueOperations.get(httpCookie);
+        return userBean;
+    }
+
+
+
+    @RequestMapping("admin_login")
+    public boolean loginAdmin(@RequestParam("userCode")String userCode,@RequestParam("password")String password,
+                              HttpServletResponse response){
+        UserBean userBean =userService.loginAdmin(userCode,password);
+        if (userBean==null){
+            return false;
+        }
+        if (password.equals(userBean.getUserPassword())) {
+            //if (userRedisTemplate.hasKey("login_information_"+code)==Boolean.FALSE) {
+            Cookie cookie = new Cookie("admin-login_information", "admin-login_information_" + userCode);
+            response.addCookie(cookie);
+            ValueOperations<String, UserBean> cacheValue = userRedisTemplate.opsForValue();
+            cacheValue.set("admin-login_information_" + userCode, userBean, DAY_TIME * 7, TimeUnit.MICROSECONDS);
+            //}
+            return true;
+        }
+        return false;
+    }
+    @RequestMapping("admin_is_login")
+    public UserBean adminIsLogin(@CookieValue(value = "admin-login_information")@Nullable String httpCookie) {
         if (httpCookie==null){
             return null;
         }

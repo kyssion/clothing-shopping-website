@@ -9,7 +9,24 @@ public class DiscountsBean {
     private long addTime;
     private long discountsMoney;
     private long isDiscounts;
+    private String img;
+    private String style;
 
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    public String getStyle() {
+        return style;
+    }
+
+    public void setStyle(String style) {
+        this.style = style;
+    }
 
     public long getId() {
         return id;
